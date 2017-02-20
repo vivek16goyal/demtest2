@@ -85,6 +85,11 @@ function onDeviceReady() {
         $(".slide-menu").slidemenu();
     });
 }
+function loadhome()
+{
+    window.location.href = "www/HomePage.html";
+
+}
 function Reset() {
     if (confirm("Do you really want to Reset App?")) {
         window.localStorage.clear();
